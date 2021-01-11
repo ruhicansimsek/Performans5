@@ -1,0 +1,119 @@
+body {
+  background: #3e1d09;
+  background-repeat: no-repeat;
+  background-image: url(resim/bg-body.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.sil {
+  clear: both;
+}
+.ana {
+  width: 940px;
+  margin: auto;
+}
+header {
+  width: 940px;
+  height: 500px;
+}
+.menuyeri {
+  width: 432px;
+  height: 80px;
+  float: right;
+}
+.menu {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.menu li {
+  float: left;
+}
+.menu a {
+  width: 72px;
+  height: 80px;
+  display: block;
+  color: #552305;
+  line-height: 80px;
+  text-decoration: none;
+  text-align: center;
+}
+.menu a:hover {
+  background-image: url(resim/buttons.gif);
+}
+.banneryazi {
+  float: right;
+  margin-right: 30px;
+  margin-top: 120px;
+  color: white;
+}
+.katil + p {
+  font-size: larger;
+}
+.katil {
+  width: 175px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  background-color: #209201;
+  box-shadow: 2px 2px #209201;
+  text-shadow: 1px 1px black;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.kayit {
+  height: 650px;
+  background-color: #4a2105;
+  border: 1px solid #5a3721;
+  border-radius: 10px;
+  padding-left: 10px;
+  color: #c1c1c1;
+}
+.kayit h3 {
+  color: #ff5b07;
+}
+.kayit p {
+  margin-right: 15px;
+  font-size: 15px;
+  text-align: justify;
+}
+.table {
+  margin-bottom: 10px;
+}
+form {
+  color: #c1c1c1;
+  margin-top: 50px;
+}
+table span {
+  float: left;
+  margin-bottom: 10px;
+  color: #ff5b07;
+}
+.input {
+  width: 60px;
+  height: 30px;
+  background-color: #209201;
+  border-radius: 5px;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+footer {
+  height: 50px;
+  background-color: #209201;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px #209201;
+}

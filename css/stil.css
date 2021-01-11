@@ -1,0 +1,213 @@
+body {
+  background: #3e1d09;
+  background-repeat: no-repeat;
+  background-image: url(resim/bg-body.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.sil {
+  clear: both;
+}
+.ana {
+  width: 940px;
+  margin: auto;
+}
+header {
+  width: 940px;
+  height: 500px;
+}
+.menuyeri {
+  width: 432px;
+  height: 80px;
+  float: right;
+}
+.menu {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.menu li {
+  float: left;
+}
+.menu a {
+  width: 72px;
+  height: 80px;
+  display: block;
+  color: #552305;
+  line-height: 80px;
+  text-decoration: none;
+  text-align: center;
+}
+.menu a:hover {
+  background-image: url(resim/buttons.gif);
+  font-weight: bolder;
+}
+.banneryazi {
+  float: right;
+  margin-right: 30px;
+  margin-top: 120px;
+  color: white;
+}
+.katil + p {
+  font-size: larger;
+}
+.katil {
+  width: 175px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  background-color: #209201;
+  box-shadow: 2px 2px #209201;
+  text-shadow: 1px 1px black;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.sol {
+  width: 600px;
+  float: left;
+}
+.sol h2 {
+  text-align: justify;
+  color: #ff5b07;
+  font-weight: 500;
+}
+.solkutu {
+  background-color: #4a2105;
+  border: 1px solid #5a3721;
+  border-radius: 5px;
+}
+.resim1 {
+  background-image: url(resim/home-biker.jpg);
+  width: 270px;
+  height: 180px;
+  float: left;
+  margin-left: 15px;
+}
+.resim2 {
+  background-image: url(resim/home-bikers.jpg);
+  width: 270px;
+  height: 180px;
+  float: left;
+  margin-left: 15px;
+}
+.solkutu p {
+  margin-left: 13px;
+  color: #c1c1c1;
+  text-align: justify;
+  font-size: 15px;
+}
+.solkucuk {
+  width: 280px;
+  float: left;
+}
+.r1 {
+  background-image: url(resim/home-biker.jpg);
+  width: 125px;
+  height: 80px;
+  float: left;
+  border: 2px solid #ff5b07;
+}
+.r2 {
+  background-image: url(resim/home-boys.jpg);
+  width: 125px;
+  height: 80px;
+  float: left;
+  border: 2px solid #ff5b07;
+  margin-left: 30px;
+}
+.r3 {
+  background-image: url(resim/home-girls.jpg);
+  width: 125px;
+  height: 80px;
+  float: left;
+  border: 2px solid #ff5b07;
+  margin-top: 25px;
+}
+.r4 {
+  background-image: url(resim/home-family.jpg);
+  width: 125px;
+  height: 80px;
+  float: left;
+  border: 2px solid #ff5b07;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.solkucuk b {
+  color: white;
+  margin-top: 10px;
+  float: right;
+}
+.sagkucuk {
+  width: 300px;
+  margin-left: 20px;
+  float: left;
+  color: #c1c1c1;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.sagkucuk h2 {
+  float: left;
+  display: block;
+  margin-bottom: 20px;
+}
+.sagkucuk p {
+  border-bottom: 2px dashed white;
+  text-align: justify;
+  font-weight: 500;
+}
+.sagkucuk b {
+  float: right;
+  color: white;
+  margin-top: 14px;
+}
+.sag {
+  width: 300px;
+  float: left;
+  margin-left: 40px;
+}
+.sag h2 {
+  float: left;
+  color: #ff5b07;
+  font-weight: 500;
+}
+.sag p {
+  color: #c1c1c1;
+  text-align: justify;
+  margin: 16px 0px 0px;
+  font-size: 15px;
+  font-size: 15px;
+}
+.input {
+  width: 288px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.sag h3 {
+  color: white;
+}
+.gonder {
+  width: 100px;
+  height: 35px;
+  background-color: #209201;
+  color: white;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+footer {
+  height: 50px;
+  background-color: #209201;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px #209201;
+}
